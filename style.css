@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.main-page-content {
+  height: 100%;
+  width: 100%;
+}
+
+.left-content {
+  position: absolute;
+  background-color: darkblue;
+  height: 150%;
+  width: 25%;
+  color: white;
+}
+
+.left-content .studentWeightWrapper {
+  margin-left: 42%;
+  padding-top: 3%;
+}
+
+h3 {
+  position: absolute;
+  margin-left: 32%;
+}
+
+hr {
+  margin-top: 20%;
+  width: 100%;
+}
+
+.center-content {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  font-size: 35px;
+}
+
+.center-content-button button {
+  position: absolute;
+  height: 75px;
+  width: 500px;
+  margin-left: 50.5%;
+  top: 65%;
+  background-color: navy;
+  color: white;
+  border: 1px;
+  border-radius: 1%;
+}
+
+.plsMinBtn .count {
+  height: 21px;
+}
+
+.minBtn {
+  background-color: green;
+  color: white;
+}
+
+.plsBtn {
+  background-color: rgb(208, 43, 43);
+  color: black;
+}
